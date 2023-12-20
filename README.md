@@ -44,23 +44,40 @@ La part de VmUUID:
 
 La part de USBUUIDS:
 >UUID:               `6f06b710-ee69-4e5d-917b-d0808827102c`
-VendorId:           0x138a (138A)
-ProductId:          0x00ab (00AB)
-Revision:           1.100 (01100)
-Port:               8
-USB version/speed:  2/Full
-Manufacturer:       Wifi USB Stick Realteck
-Address:            {53d29ef7-377c-4d14-864b-eb3a85769359}\0000
-Current State:      Busy
+>
+> VendorId:           0x138a (138A)
+>
+> ProductId:          0x00ab (00AB)
+>
+> Revision:           1.100 (01100)
+>
+> Port:               8
+>
+> USB version/speed:  2/Full
+>
+> Manufacturer:       Wifi USB Stick Realteck
+>
+> Address:            {53d29ef7-377c-4d14-864b-eb3a85769359}\0000
+>
+> Current State:      Busy
 
 (...)
 >UUID:               `93cedeaf-a6f8-49c2-ab9e-0192aa434ba2`
-VendorId:           0x0bda (0BDA)
-ProductId:          0x8153 (8153)
-Revision:           49.0 (4900)
-Port:               2
-USB version/speed:  3/Super
-Manufacturer:       Realtek Semiconductor Corp.
-Product:            RTL8153 Gigabit Ethernet Adapter
-Address:            {4d36e972-e325-11ce-bfc1-08002be10318}\0020
-Current State:      Busy
+>
+> VendorId:           0x0bda (0BDA)
+>
+> ProductId:          0x8153 (8153)
+>
+> Revision:           49.0 (4900)
+>
+> Port:               2
+>
+> USB version/speed:  3/Super
+>
+> Manufacturer:       Realtek Semiconductor Corp.
+>
+> Product:            RTL8153 Zigbee Adapter
+>
+> Address:            {4d36e972-e325-11ce-bfc1-08002be10318}\0020
+>
+> Current State:      Busy
