@@ -11,3 +11,5 @@ Valido que la VM estigui corrent i si no ho està l'engego.
 
 Valido que tots els dispositus USB estan conectats i els conecto.
 ### Paràmetres:
+**$Machine=	@{	VmUUID		="f05c746c-a545-4329-8252-bc3b42907131";
+				USBUUIDS	= @("6f06b710-ee69-4e5d-917b-d0808827102c","93cedeaf-a6f8-49c2-ab9e-0192aa434ba2")}**
