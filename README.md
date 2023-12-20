@@ -13,7 +13,8 @@ Conté els scripts de power shell que faig servir per operar el meu servidor d'O
 
 ## Paràmetres:
 > $Machine=@{VmUUID="`f05c746c-a545-4329-8252-bc3b42907131`";
-USBUUIDS = @("`6f06b710-ee69-4e5d-917b-d0808827102c`","`93cedeaf-a6f8-49c2-ab9e-0192aa434ba2`")}
+> 
+> USBUUIDS = @("`6f06b710-ee69-4e5d-917b-d0808827102c`","`93cedeaf-a6f8-49c2-ab9e-0192aa434ba2`")}
 
 Obtinguts de:
 ```sh
