@@ -23,15 +23,15 @@ C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list usbhost
 
 La part de VmUUID:
 >C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list --long vms
-Name:                        TestHA
-Encryption:     disabled
-Groups:                      /
-Guest OS:                    Linux (64-bit)
-UUID:                        `f05c746c-a545-4329-8252-bc3b42907131`
-Config file:                 C:\TestHA.vbox
-Snapshot folder:             C:\Snapshots
-Log folder:                  C:\Logs
-Hardware UUID:               `f05c746c-a545-4329-8252-bc3b42907131`
+>Name:                        TestHA
+>Encryption:     disabled
+>Groups:                      /
+>Guest OS:                    Linux (64-bit)
+>UUID:                        `f05c746c-a545-4329-8252-bc3b42907131`
+>Config file:                 C:\TestHA.vbox
+>Snapshot folder:             C:\Snapshots
+>Log folder:                  C:\Logs
+>Hardware UUID:               `f05c746c-a545-4329-8252-bc3b42907131`
 
 La part de USBUUIDS:
 >UUID:               `6f06b710-ee69-4e5d-917b-d0808827102c`
