@@ -1,28 +1,28 @@
 # HA-OracleVm-Checker
-Conté els scripts de power shell que faig servir per operar el meu servidor d'OracleVM on viu el HA
+Contains the PowerShell scripts I use to operate my OracleVM server where HA resides.
 ## ValidateVMUSB.ps1:
-### Problemes:
-- A vegades la VM pot entrar en suspensió i engegar-la a través de GUI pot ser "dificil", en canvi amb un scripts powershell es més assequible.
-- Les màquines virtuals OracleVM que tenen presentats dispositius USB directament, en cas de desconnexió momentanea de l'USB, el perden i no es torna a presentar automaticament. En el meu cas la màquina virtual d'HA té un USBWifi, un dongle Zigbee i un Zigbee2MQTT. A vegades es desconecta
-- Sobretot si cau l'USBWifi s'ha de fer un reload de la configuració del HA
+### Issues:
+- Sometimes the VM may go into suspension, and starting it through the GUI can be "difficult," whereas with a PowerShell script, it is more accessible.
+- OracleVM virtual machines that have USB devices directly attached may lose connection temporarily when the USB is disconnected and do not automatically reconnect. In my case, the HA virtual machine has a USB Wifi, a Zigbee dongle, and a Zigbee2MQTT. Sometimes it gets disconnected.
+- Especially if the USB Wifi drops, a reload of the HA configuration needs to be done.
 
-### Solució:
-- Valido que la VM estigui corrent i si no ho està l'engego.
-- Valido que tots els dispositus USB estan conectats i els conecto.
-- Faig un reload de la part de xarxa de la VM HA (injectant comandes a través de la consola de la VM)
+### Solution:
+- Validate that the VM is running, and if it's not, start it.
+- Validate that all USB devices are connected and connect them.
+- Perform a reload of the network part of the HA VM (injecting commands through the VM console).
 
-## Paràmetres:
+## Parameters:
 > $Machine=@{VmUUID="`f05c746c-a545-4329-8252-bc3b42907131`";
 > 
 > USBUUIDS = @("`6f06b710-ee69-4e5d-917b-d0808827102c`","`93cedeaf-a6f8-49c2-ab9e-0192aa434ba2`")}
 
-Obtinguts de:
+Obtained from:
 ```sh
 C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list --long vms
 C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list usbhost
 ```
 
-La part de VmUUID:
+VmUUID part:
 >C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list --long vms
 >
 >Name:                        TestHA
