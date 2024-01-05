@@ -43,7 +43,7 @@ VmUUID part:
 >
 >Hardware UUID:               `f05c746c-a545-4329-8252-bc3b42907131`
 
-La part de USBUUIDS:
+USBUUIDS part:
 >UUID:               `6f06b710-ee69-4e5d-917b-d0808827102c`
 >
 > VendorId:           0x138a (138A)
