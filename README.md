@@ -83,8 +83,8 @@ USBUUIDS part:
 >
 > Current State:      Busy
 
-** Extra bonus
-*** Hide shutdown/reboot button
+## Extra bonus
+### Hide shutdown/reboot button
 My windows10 machine where I run my OracleVM with my VM inside is connected to the TV so the kids can play Netflix and wotch only stuff thru the browsers. But My wife sometimes forget that the HAServer is running in background and just shutdown the server after whatching a film. Avoid it!
 >
 >HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\Start\HideShutDown
