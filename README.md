@@ -1,4 +1,4 @@
-# HA-OracleVm-Checker
+# OracleVm-Checker
 Contains the PowerShell scripts I use to operate my OracleVM server where HA resides.
 ## ValidateVMUSB.ps1:
 ### Issues:
